@@ -1,0 +1,59 @@
+.blur-bg {
+  backdrop-filter: blur(3px);
+  height: auto;
+  width: auto;
+}
+
+.activeLink {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+.mainLoginInput::-webkit-input-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: rgba(133, 133, 135, 1);
+}
+.mainLoginInput::-moz-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: rgba(133, 133, 135, 1);
+}
+.mainLoginInput:-ms-input-placeholder {
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: rgba(133, 133, 135, 1);
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 24px;
+  height: 24px;
+  right: 16px;
+  top: 16px;
+}
+
+@media only screen and (min-width: 480px) {
+  .score-boxes {
+    transform: translate(0, -40%);
+  }
+  .score-label {
+    margin-right: 8rem;
+  }
+}

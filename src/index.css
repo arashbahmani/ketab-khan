@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: "Vazir", "B Nazanin", "tahoma", "Ubuntu" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url("./assets/bg-image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
+  color: inherit;
+}
+ul {
+  padding: 0;
+}
+
+nav li p {
+  margin: 0 !important;
+}
+
+nav li {
+  margin: 1.5vh 0;
+  padding: 1vh 1.5vw;
+  color: black !important;
+}

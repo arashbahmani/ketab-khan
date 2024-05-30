@@ -1,0 +1,48 @@
+.inputPosition {
+  pointer-events: none;
+  position: absolute;
+  top: 30%;
+  right: 4%;
+}
+
+.animateToUpRight {
+  animation-name: animateToUpRight;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.animateFromUpRight {
+  animation-name: animateFromUpRight;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  margin-right: 75%;
+  color: red;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+@keyframes animateToUpRight {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(0, -50%) scale(0.8);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+  }
+}
+
+@keyframes animateFromUpRight {
+  from {
+    transform: translate(0, -50%) scale(0.8);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 300;
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}

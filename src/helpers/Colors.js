@@ -1,0 +1,10 @@
+export const BLACK = "#2C2C2E";
+export const BLACK_59 = "#595959";
+export const BLACK_50 = "rgba(0, 0, 0, 0.5)";
+export const YELLOW = "#FAE52D";
+export const GRAY = "#858587";
+export const LIGHT_GRAY = "#D1D1D6";
+export const SCORE_1 = "rgba(172, 171, 185, 0.5)";
+export const SCORE_2 = "rgba(167, 220, 121, 0.5)";
+export const SCORE_3 = "rgba(255, 230, 0, 0.35)";
+export const SCORE_4 = "rgba(255, 0, 0, 0.2)";

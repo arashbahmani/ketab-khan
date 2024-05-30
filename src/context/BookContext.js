@@ -1,0 +1,25 @@
+import { createContext } from "react";
+
+export const BookContext = createContext({
+  loading: false,
+  setLoading: () => {},
+  books: [],
+  setBooks: () => {},
+  singleBook: {},
+  setSingleBook: () => {},
+  filteredBooks: [],
+  setFilteredBooks: () => {},
+  groups: [],
+  setGroups: () => {},
+  bookQuery: {},
+  setBookQuery: () => {},
+  bookSearch: () => {},
+  removeBook: () => {},
+  editBookForm: () => {},
+  forceRender: false,
+  setForceRender: () => {},
+  onInputChange: () => {},
+  createBookForm: () => {},
+  isUpdate: false,
+  setUpdate: () => {},
+});
