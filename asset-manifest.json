@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/khan/static/css/main.f5891e97.css",
+    "main.js": "/khan/static/js/main.ad23b5bf.js",
+    "static/media/bg-image.jpg": "/khan/static/media/bg-image.f5157261c1e6407da490.jpg",
+    "static/media/notFound.gif": "/khan/static/media/notFound.55a4cc85e52c951dd104.gif",
+    "static/media/spinner.gif": "/khan/static/media/spinner.135b7ee542195fe85b6e.gif",
+    "static/media/logo.png": "/khan/static/media/logo.77a9fdc810cad3059fc3.png",
+    "static/media/hamburger-menu-icon.png": "/khan/static/media/hamburger-menu-icon.b65107258e75b3f1dac4.png",
+    "index.html": "/khan/index.html",
+    "main.f5891e97.css.map": "/khan/static/css/main.f5891e97.css.map",
+    "main.ad23b5bf.js.map": "/khan/static/js/main.ad23b5bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5891e97.css",
+    "static/js/main.ad23b5bf.js"
+  ]
+}
